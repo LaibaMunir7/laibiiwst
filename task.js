@@ -1,4 +1,12 @@
 import react from "react";
 const Hello=()=>{
-    return react 
+    return React.createElement(
+        'div',
+        null,
+        React.createElement('hi',
+            null,
+        'Hello World'
+        )
+    )
 }
+export default Hello;
